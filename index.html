@@ -299,6 +299,36 @@
         min-height: 100vh;
         width: max-content;
       }
+      #desktop-inner::before {
+        content: '';
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 720px;
+        height: 200px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 80'%3E%3Cstyle%3Etext%7Bfont-family:'Inter','Arial Black',sans-serif;font-weight:900%7D%3C/style%3E%3Ctext x='0' y='62' font-size='68' fill='rgba(255,255,255,0.08)' letter-spacing='-2'%3EON%3C/text%3E%3Ccircle cx='138' cy='52' r='7' fill='rgba(255,107,107,0.12)'/%3E%3Ctext x='152' y='62' font-size='68' fill='rgba(255,255,255,0.08)' letter-spacing='-2'%3EDA%3C/text%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        pointer-events: none;
+        z-index: 0;
+      }
+      #desktop-inner::before {
+        content: '';
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 130px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 80'%3E%3Cstyle%3Etext %7B font-family: 'Inter', 'Arial Black', sans-serif; font-weight: 900; %7D%3C/style%3E%3Ctext x='0' y='62' font-size='68' fill='rgba(255,255,255,0.04)' letter-spacing='-2'%3EON%3C/text%3E%3Ccircle cx='138' cy='52' r='7' fill='rgba(255,107,107,0.06)'/%3E%3Ctext x='152' y='62' font-size='68' fill='rgba(255,255,255,0.04)' letter-spacing='-2'%3EDA%3C/text%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        pointer-events: none;
+        z-index: 0;
+      }
       #desktop::before {
         content: '';
         position: absolute;
